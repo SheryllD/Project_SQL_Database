@@ -9,10 +9,10 @@
 - Sheryll  
 
 **Project Description:**  
-A brief overview goes here explaining the purpose of the project and the problem it aims to solve.
+A brief overview goes here explaining the purpose of our project and the problem it aims to solve.
 
 **Branches Created:**  
-- List of Git branches or structure if relevant
+- List of Git branches or structure if this is relevant
 
 ---
 
@@ -25,7 +25,7 @@ A short explanation of the industry context or business relevance.
 Clearly listed challenges or user pain points being addressed.
 
 ### Hypotheses and Research Questions  
-Concise hypotheses tied to your problem statements. Followed by the research questions you aim to answer with data.
+Concise hypotheses tied to our problem statements. Followed by the research questions we aim to answer with data.
 
 ---
 
@@ -53,6 +53,8 @@ Concise hypotheses tied to your problem statements. Followed by the research que
 - Removed duplicates and handled missing values  
 - Standardised formats and converted categorical values
 
+add more if needed
+
 ### 2. Exploratory Data Analysis (EDA)  
 - Describe techniques used for exploring data patterns  
 - Initial observations
@@ -62,7 +64,7 @@ Concise hypotheses tied to your problem statements. Followed by the research que
 - Insights 
 
 ### 4. Data Visualisations  
-- Description of visualisation tools used  
+- Description of our visualisation tools used  
 - Key graphs and insights
 
 ### 5. Conclusion and Insights  
@@ -71,7 +73,7 @@ Concise hypotheses tied to your problem statements. Followed by the research que
 - Highlight most important discoveries
 
 #### Key Takeaways  
-- Summary of what your analysis means for the business
+- Summary of what our analysis means for the business
 
 ---
 
@@ -86,11 +88,11 @@ Explain findings that helped improve our process, or decision-making. Pls link b
 - Tools and technologies used (SQL, Python, Pandas, Seaborn, etc.)
 
 ### Technical Challenges and Learnings  
-- Describe issues you faced during development and what you learned from them
+- Describe issues we faced during development and what we learned 
 
 ---
 
-## Repository Structure (optional)
+## Repository Structure (example/optional)
 ```text
 sql-database/
 │
