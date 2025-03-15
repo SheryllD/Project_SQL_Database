@@ -102,8 +102,9 @@ sql-database/
 ├── schema.sql             # SQL database schema
 ├── queries.sql            # All SQL queries used
 └── README.md
-
+``` 
 --- 
+
 # Links: 
 Presentation: https://docs.google.com/presentation/d/1T8r3NJ6lvzrLjCZWKZQkFa2BNVDzjP75qQgQqAJKmIo/edit#slide=id.p
 
