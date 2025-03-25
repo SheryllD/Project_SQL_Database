@@ -32,6 +32,26 @@ Concise hypotheses tied to our problem statements. Followed by the research ques
 ## Dataset
 
 - Description of primary and secondary datasets used  
+Column	Description	Significance
+Id	Unique identifier for each user.	Primary Key for user tracking.
+SleepDay	Date and time of recorded sleep data.	Useful for analyzing sleep patterns.
+TotalSleepRecords	Number of recorded sleep sessions.	Indicates sleep pattern complexity (e.g., interrupted sleep).
+TotalMinutesAsleep	Total minutes spent sleeping in a given day.	Key metric for evaluating sleep quality.
+TotalTimeInBed	Total minutes spent in bed (includes awake periods).	Helps calculate sleep efficiency.
+ActivityDate	Date of recorded activity data.	Useful for time-series trend analysis.
+TotalSteps	Total number of steps taken in a day.	Key metric for physical activity.
+TotalDistance	Total distance covered (in miles or km).	Reflects total movement intensity.
+TrackerDistance	Distance tracked specifically by the Fitbit device.	Ensures device-specific tracking accuracy.
+LoggedActivitiesDistance	Manually logged distance that may differ from tracker data.	Useful for identifying manual overrides.
+VeryActiveDistance	Distance covered during intense physical activity.	Reflects vigorous workout behavior.
+ModeratelyActiveDistance	Distance covered during moderate physical activity.	Reflects medium-intensity workouts.
+LightActiveDistance	Distance covered during light physical activity.	Reflects casual movement (e.g., walking).
+SedentaryActiveDistance	Distance covered while mostly inactive.	Potentially redundant but may indicate movement while seated.
+VeryActiveMinutes	Total minutes spent doing intense physical activities.	Key fitness metric for cardio workouts.
+FairlyActiveMinutes	Minutes spent engaging in moderately intense activities.	Helps in understanding balanced activity levels.
+LightlyActiveMinutes	Minutes spent doing light physical activities.	Important for understanding general mobility.
+SedentaryMinutes	Total sedentary minutes recorded.	Critical for identifying sedentary lifestyle risks.
+Calories	Total calories burned in a day.	Core indicator for energy expenditure and weight management.
 - Data sources (CSV, API, etc.)  
 - Key variables or features  
 - Why this data was chosen
@@ -44,7 +64,25 @@ Concise hypotheses tied to our problem statements. Followed by the research ques
 - Entity Relationship Diagram (include image or link)  
 - Description of tables, relationships, keys
 
----
+Entities
+
+User (Id, Age, Gender, Occupation, BMI Group)
+
+Sleep (Id, SleepDay, TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed)
+
+Activity (Id, ActivityDate, TotalSteps, TotalDistance, TrackerDistance, LoggedActivitiesDistance)
+
+Intensity (Id, ActivityDate, VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes, SedentaryMinutes)
+
+Calories (Id, ActivityDate, Calories)
+
+Relationships
+
+User (PK: Id) → Connected to all other tables via Id.
+
+Sleep and Activity are related using ActivityDate and SleepDay.
+
+The BMI data from secondary dataset can be linked using user attributes such as Age or BMI category.
 
 ## Methodology
 
