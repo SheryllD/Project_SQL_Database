@@ -58,6 +58,7 @@ FairlyActiveMinutes	Minutes spent engaging in moderately intense activities.	Hel
 LightlyActiveMinutes	Minutes spent doing light physical activities.	Important for understanding general mobility.
 SedentaryMinutes	Total sedentary minutes recorded.	Critical for identifying sedentary lifestyle risks.
 Calories	Total calories burned in a day.	Core indicator for energy expenditure and weight management.
+
 - Data sources (CSV, API, etc.)  
 - Key variables or features  
 - Why this data was chosen
@@ -72,7 +73,7 @@ Calories	Total calories burned in a day.	Core indicator for energy expenditure a
 
 Entities
 
-User (Id, Age, Gender, Occupation, BMI Group)
+User (Id, Age, Gender, BMI Group)
 
 Sleep (Id, SleepDay, TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed)
 
@@ -136,18 +137,6 @@ Explain findings that helped improve our process, or decision-making. Pls link b
 
 ---
 
-## Repository Structure (example/optional)
-```text
-sql-database/
-│
-├── data/                  # Raw datasets
-├── notebooks/             # Jupyter notebooks for EDA and reporting
-├── scripts/               # Python scripts for cleaning and loading
-├── schema.sql             # SQL database schema
-├── queries.sql            # All SQL queries used
-└── README.md
-``` 
---- 
 
 # Links: 
 Presentation: https://docs.google.com/presentation/d/1T8r3NJ6lvzrLjCZWKZQkFa2BNVDzjP75qQgQqAJKmIo/edit#slide=id.p

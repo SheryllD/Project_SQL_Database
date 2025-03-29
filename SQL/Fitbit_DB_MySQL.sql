@@ -1,6 +1,37 @@
 CREATE DATABASE ravenclaw;
 
 USE ravenclaw; 
+
+-- Creating table for MySQL Workbench
+
+CREATE TABLE fitbit_data (
+  id BIGINT NOT NULL,
+  sleep_day DATE NOT NULL,
+  total_sleep_records INT NOT NULL,
+  total_minutes_asleep INT NOT NULL,
+  total_time_in_bed INT NOT NULL,
+  activity_date DATE NOT NULL,
+  total_steps INT NOT NULL,
+  total_distance FLOAT NOT NULL,
+  tracker_distance FLOAT NOT NULL,
+  logged_activities_distance FLOAT NOT NULL,
+  very_active_distance FLOAT NOT NULL,
+  moderately_active_distance FLOAT NOT NULL,
+  light_active_distance FLOAT NOT NULL,
+  sedentary_active_distance FLOAT NOT NULL,
+  very_active_minutes INT NOT NULL,
+  fairly_active_minutes INT NOT NULL,
+  lightly_active_minutes INT NOT NULL,
+  sedentary_minutes INT NOT NULL,
+  calories INT NOT NULL,
+  day_of_the_week VARCHAR(10) NOT NULL,
+  total_hours_asleep FLOAT NOT NULL,
+  total_hours_in_bed FLOAT NOT NULL,
+  total_exercise_minutes INT NOT NULL,
+  total_exercise_hours FLOAT NOT NULL,
+  performance FLOAT NOT NULL
+);
+
 SELECT COUNT(*) FROM fitbit_data;
 
 -- 1. Checking for number of ID's/users
