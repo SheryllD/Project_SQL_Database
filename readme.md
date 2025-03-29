@@ -48,8 +48,6 @@ We utilised the following datasets for this project:
 Data fromats:
 CSV and xlx  
 
-**Why this data was chosen?**
-
 ---
 
 ## Database Design
@@ -95,8 +93,13 @@ add more if needed
 - List of queries (e.g. aggregations, JOINs, subqueries)  
 - Insights 
 
+Note: Please review Fitbit_DB_MySWL.sql file for all the queries. 
+
 ### 4. Data Visualisations  
+
 - Description of our visualisation tools used  
+We created matplot
+
 - Key graphs and insights
 
 ### 5. Conclusion and Insights  
@@ -126,8 +129,6 @@ Explain findings that helped improve our process, or decision-making. Pls link b
 
 
 # Links: 
-Presentation: https://docs.google.com/presentation/d/1T8r3NJ6lvzrLjCZWKZQkFa2BNVDzjP75qQgQqAJKmIo/edit#slide=id.p
-
-Trello: https://trello.com/b/TJmjTcdU/ravenclaw-club
-
-Google Doc: https://docs.google.com/document/d/1ee1Irj8KmspckHQ1KdCo3uqa0DlZIPq9wYm0BbSRYAc/edit?tab=t.0
+- Presentation: https://docs.google.com/presentation/d/1T8r3NJ6lvzrLjCZWKZQkFa2BNVDzjP75qQgQqAJKmIo/edit#slide=id.p
+- Trello: https://trello.com/b/TJmjTcdU/ravenclaw-club
+- Google Doc: https://docs.google.com/document/d/1ee1Irj8KmspckHQ1KdCo3uqa0DlZIPq9wYm0BbSRYAc/edit?tab=t.0
