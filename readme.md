@@ -19,21 +19,20 @@ A brief overview goes here explaining the purpose of our project and the problem
 ## Business Context
 
 ### Business Case  
--- rwrite we are from fitbit - 
+At Fitbit, we are closely monitoring the alarming rise in obesity and lifestyle-related diseases across Germany. Sedentary habits, disrupted sleep, and chronic stress are contributing to a national health crisis, with traditional interventions proving insufficient, generic, and unsustainable in daily life. 
+Germany is experiencing a significant rise in overweight and obesity rates. Traditional health interventions often lack individualisation and fail to support sustainable behavioural change in everyday life.
 
-Germany is experiencing a significant rise in overweight and obesity rates, largely driven by sedentary lifestyles, insufficient physical activity, irregular sleep patterns, and a general lack of personalised health awareness. Traditional health interventions often lack individualisation and fail to support sustainable behavioural change in everyday life.
+As a leader in wearable health technology, we see a critical opportunity to support this public health challenge through data-driven, personalised wellness solutions. By leveraging real-time behavioural data—such as movement, sleep, and stress patterns—our application empowers users to make informed lifestyle changes tailored to their unique habits.
 
 There is a growing need for a data-driven, personalised wellness solution that empowers individuals to take control of their health through actionable insights. Our app addresses this gap by helping users understand their own behavioural patterns—such as movement, sleep, and stress—and by providing tailored recommendations to support healthier lifestyle choices.
 
 To maximise accessibility and long-term impact, the app is designed to be reimbursed or subsidised by health insurance providers. This model not only reduces financial barriers for users but also aligns with the broader public health goals of reducing obesity-related healthcare costs. By enabling users to make better decisions through personalised, real-time insights, we aim to reduce obesity levels, improve overall well-being, and create measurable value for both individuals and insurers.
-
 
 ### Problem Statements  
 Business Problem: Can a personalised wellness app, built on behavioural patterns of individuals, provide a scalable and cost-effective solution to the obesity problem in Germany?
 
 ### Hypotheses and Research Questions  
 Hypothesis 1: Sufficient sleep is closely linked to an active lifestyle, contributing to overall well-being.
-
 Hypothesis 2: Physical activiy patterens vary significant by day of the week. 
 
 ---
